@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Mesh3DS(OpenGL_Routines) AddMaterial:::::::]:OpenGL_Routines.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Mesh3DS Parse3DS:]:Mesh3DS.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Mesh3DS(File_Routines) LoadTextureFile::]:File_Routines.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSCFString *)theFileName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D131AE7C15E0188E00C99121 /* UFO.3ds in Resources */ = {isa = PBXBuildFile; fileRef = D131AE7A15E0188E00C99121 /* UFO.3ds */; };
+		D131AE7D15E0188E00C99121 /* UFO.TGA in Resources */ = {isa = PBXBuildFile; fileRef = D131AE7B15E0188E00C99121 /* UFO.TGA */; };
+		D132FF490B16BC9900C30E1A /* Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = F47DA24F02CBBC2D01A8070A /* Controller.h */; };
+		D132FF4A0B16BC9900C30E1A /* View.h in Headers */ = {isa = PBXBuildFile; fileRef = F47DA25102CBBC2D01A8070A /* View.h */; };
+		D132FF4C0B16BC9900C30E1A /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		D132FF4D0B16BC9900C30E1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		D132FF4E0B16BC9900C30E1A /* P-Squared.icns in Resources */ = {isa = PBXBuildFile; fileRef = D144A8A703DB881900A1D905 /* P-Squared.icns */; };
+		D132FF520B16BC9900C30E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		D132FF530B16BC9900C30E1A /* Controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = F47DA25002CBBC2D01A8070A /* Controller.mm */; };
+		D132FF540B16BC9900C30E1A /* View.mm in Sources */ = {isa = PBXBuildFile; fileRef = F47DA25202CBBC2D01A8070A /* View.mm */; };
+		D132FF560B16BC9900C30E1A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D132FF570B16BC9900C30E1A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47DA24C02CBBBBD01A8070A /* OpenGL.framework */; };
+		D16B9F18132AA341004DC3BA /* Mesh3DS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16B9F17132AA340004DC3BA /* Mesh3DS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D131AE7A15E0188E00C99121 /* UFO.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; path = UFO.3ds; sourceTree = "<group>"; };
+		D131AE7B15E0188E00C99121 /* UFO.TGA */ = {isa = PBXFileReference; lastKnownFileType = file; path = UFO.TGA; sourceTree = "<group>"; };
+		D132FF5D0B16BC9900C30E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D132FF5E0B16BC9900C30E1A /* Display3DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Display3DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D144A8A703DB881900A1D905 /* P-Squared.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "P-Squared.icns"; sourceTree = "<group>"; };
+		D16B9F17132AA340004DC3BA /* Mesh3DS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mesh3DS.framework; path = Library/Frameworks/Mesh3DS.framework; sourceTree = SDKROOT; };
+		F47DA24C02CBBBBD01A8070A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F47DA24F02CBBC2D01A8070A /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		F47DA25002CBBC2D01A8070A /* Controller.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = Controller.mm; sourceTree = "<group>"; };
+		F47DA25102CBBC2D01A8070A /* View.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = View.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F47DA25202CBBC2D01A8070A /* View.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = View.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D132FF550B16BC9900C30E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16B9F18132AA341004DC3BA /* Mesh3DS.framework in Frameworks */,
+				D132FF560B16BC9900C30E1A /* Cocoa.framework in Frameworks */,
+				D132FF570B16BC9900C30E1A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F47DA24F02CBBC2D01A8070A /* Controller.h */,
+				F47DA25002CBBC2D01A8070A /* Controller.mm */,
+				F47DA25102CBBC2D01A8070A /* View.h */,
+				F47DA25202CBBC2D01A8070A /* View.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16B9F17132AA340004DC3BA /* Mesh3DS.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F47DA24C02CBBBBD01A8070A /* OpenGL.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D132FF5E0B16BC9900C30E1A /* Display3DS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Lesson04_OSXCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D132FF5D0B16BC9900C30E1A /* Info.plist */,
+			);
+			name = Lesson04_OSXCocoa;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D131AE7A15E0188E00C99121 /* UFO.3ds */,
+				D131AE7B15E0188E00C99121 /* UFO.TGA */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				D144A8A703DB881900A1D905 /* P-Squared.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D132FF480B16BC9900C30E1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FF490B16BC9900C30E1A /* Controller.h in Headers */,
+				D132FF4A0B16BC9900C30E1A /* View.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D132FF470B16BC9900C30E1A /* Display3DS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D132FF590B16BC9900C30E1A /* Build configuration list for PBXNativeTarget "Display3DS" */;
+			buildPhases = (
+				D132FF480B16BC9900C30E1A /* Headers */,
+				D132FF4B0B16BC9900C30E1A /* Resources */,
+				D132FF510B16BC9900C30E1A /* Sources */,
+				D132FF550B16BC9900C30E1A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Display3DS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Lesson04_OSXCocoa;
+			productReference = D132FF5E0B16BC9900C30E1A /* Display3DS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D1E8508209268EE200E3C516 /* Build configuration list for PBXProject "Display3DS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Lesson04_OSXCocoa */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D132FF470B16BC9900C30E1A /* Display3DS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D132FF4B0B16BC9900C30E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FF4C0B16BC9900C30E1A /* MainMenu.nib in Resources */,
+				D132FF4D0B16BC9900C30E1A /* InfoPlist.strings in Resources */,
+				D132FF4E0B16BC9900C30E1A /* P-Squared.icns in Resources */,
+				D131AE7C15E0188E00C99121 /* UFO.3ds in Resources */,
+				D131AE7D15E0188E00C99121 /* UFO.TGA in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D132FF510B16BC9900C30E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D132FF520B16BC9900C30E1A /* main.m in Sources */,
+				D132FF530B16BC9900C30E1A /* Controller.mm in Sources */,
+				D132FF540B16BC9900C30E1A /* View.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D132FF5A0B16BC9900C30E1A /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Display3DS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D132FF5B0B16BC9900C30E1A /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Display3DS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D132FF5C0B16BC9900C30E1A /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Display3DS;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		D1E8508309268EE200E3C516 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/include;
+			};
+			name = Development;
+		};
+		D1E8508409268EE200E3C516 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/include;
+			};
+			name = Deployment;
+		};
+		D1E8508509268EE200E3C516 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /usr/include;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D132FF590B16BC9900C30E1A /* Build configuration list for PBXNativeTarget "Display3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D132FF5A0B16BC9900C30E1A /* Development */,
+				D132FF5B0B16BC9900C30E1A /* Deployment */,
+				D132FF5C0B16BC9900C30E1A /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D1E8508209268EE200E3C516 /* Build configuration list for PBXProject "Display3DS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E8508309268EE200E3C516 /* Development */,
+				D1E8508409268EE200E3C516 /* Deployment */,
+				D1E8508509268EE200E3C516 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

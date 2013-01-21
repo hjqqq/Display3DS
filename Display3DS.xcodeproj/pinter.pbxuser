@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 970}}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{0, 326}";
+			sepNavVisRect = "{{0, 0}, {1594, 810}}";
+			sepNavWindowFrame = "{{15, 50}, {750, 947}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = D132FF5F0B16BC9900C30E1A /* Display3DS */;
+		activeSDKPreference = macosx10.6;
+		activeTarget = D132FF470B16BC9900C30E1A /* Display3DS */;
+		addToTargets = (
+			D132FF470B16BC9900C30E1A /* Display3DS */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = D1BDF5B9083FD966007482E2 /* Code sense */;
+		executables = (
+			D132FF5F0B16BC9900C30E1A /* Display3DS */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					985,
+					438.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1396,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1356,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292034965;
+			PBXWorkspaceContents = (
+				{
+					LeftSlideOut = {
+						Split0 = {
+							Split0 = {
+								NavContent0 = {
+									bookmark = D1BFEF900448CE2600A1D905;
+									history = (
+										D188B5D803D9F5F800A1D905,
+										D188B5DA03D9F5F800A1D905,
+										D188B5DB03D9F5F800A1D905,
+										D188B5DC03D9F5F800A1D905,
+										D188B61303DA152300A1D905,
+										D13B1F7803DB7BFE00A1D905,
+										D13B1F7B03DB7BFE00A1D905,
+										D144A8A903DB889900A1D905,
+										D193E27B03DC82FB00A1D905,
+										D18108DE03EDF14C00A1D905,
+										D105323F041AF46300A1D905,
+										D1053240041AF46300A1D905,
+										D189B810041BEF6100A1D905,
+										D189B811041BEF6100A1D905,
+										D189B812041BEF6100A1D905,
+										D189B813041BEF6100A1D905,
+										D1809434041BF3C300A1D905,
+										D1809435041BF3C300A1D905,
+										D15856E0041C02BC00A1D905,
+										D12D96D7041C138B00A1D905,
+										D12D96DB041C138B00A1D905,
+										D12D9747041C155900A1D905,
+										D12D9748041C155900A1D905,
+										D12D9749041C155900A1D905,
+										D1BE7C63041D844000A1D905,
+										D1BE7C64041D844000A1D905,
+										D1BFEF8C0448CE2600A1D905,
+										D1BFEF8D0448CE2600A1D905,
+									);
+									prevStack = (
+										D1A66F9C03CFCC3600A1D905,
+										D1A66F9D03CFCC3600A1D905,
+										D1A66F9E03CFCC3600A1D905,
+										D1A66F9F03CFCC3600A1D905,
+										D1A66FA003CFCC3600A1D905,
+										D1A66FA103CFCC3600A1D905,
+										D1A66FA203CFCC3600A1D905,
+										D18511AC03D0D1F700A1D905,
+										D18511B003D0D1F700A1D905,
+										D18511B103D0D1F700A1D905,
+										D18511B203D0D1F700A1D905,
+										D18511B303D0D1F700A1D905,
+										D18511B403D0D1F700A1D905,
+										D18511B503D0D1F700A1D905,
+										D18511B603D0D1F700A1D905,
+										D18511B703D0D1F700A1D905,
+										D18299B703D0E9CC00A1D905,
+										D18299B903D0E9CC00A1D905,
+										D182C8F103D1F5B200A1D905,
+										D17ED4AD03D52A9700A1D905,
+										D17ED4AE03D52A9700A1D905,
+										D17ED4AF03D52A9700A1D905,
+										D17ED4B003D52A9700A1D905,
+										D17ED4B103D52A9700A1D905,
+										D17ED4B203D52A9700A1D905,
+										D17ED4B303D52A9700A1D905,
+										D17ED4B403D52A9700A1D905,
+										D17ED4B503D52A9700A1D905,
+										D1819CC203D6549500A1D905,
+										D17ECEF303D7A9E100A1D905,
+										D187571003D9CDF400A1D905,
+										D187571203D9CDF400A1D905,
+										D187571303D9CDF400A1D905,
+										D187572203D9D2F200A1D905,
+										D188B5E003D9F5F800A1D905,
+										D188B5E203D9F5F800A1D905,
+										D188B5E303D9F5F800A1D905,
+										D188B5E403D9F5F800A1D905,
+										D188B5E503D9F5F800A1D905,
+										D188B5E703D9F5F800A1D905,
+										D188B5E803D9F5F800A1D905,
+										D188B5E903D9F5F800A1D905,
+										D188B5EB03D9F5F800A1D905,
+										D188B5EC03D9F5F800A1D905,
+										D188B62703DA1DBF00A1D905,
+										D188B62803DA1DBF00A1D905,
+										D188B62903DA1DBF00A1D905,
+										D183C62F03DB752A00A1D905,
+										D183C63003DB752A00A1D905,
+										D183C63103DB752A00A1D905,
+										D183C63203DB752A00A1D905,
+										D183C63303DB752A00A1D905,
+										D183C63403DB752A00A1D905,
+										D183C63503DB752A00A1D905,
+										D183C63603DB752A00A1D905,
+										D183C63703DB752A00A1D905,
+										D183C63803DB752A00A1D905,
+										D183C63903DB752A00A1D905,
+										D183C63A03DB752A00A1D905,
+										D183C63B03DB752A00A1D905,
+										D183C63C03DB752A00A1D905,
+										D183C63D03DB752A00A1D905,
+										D183C63E03DB752A00A1D905,
+										D183C63F03DB752A00A1D905,
+										D183C64003DB752A00A1D905,
+										D183C64103DB752A00A1D905,
+										D183C64203DB752A00A1D905,
+										D183C64303DB752A00A1D905,
+										D183C64403DB752A00A1D905,
+										D183C64503DB752A00A1D905,
+										D183C64603DB752A00A1D905,
+										D183C64703DB752A00A1D905,
+										D183C64803DB752A00A1D905,
+										D183C64903DB752A00A1D905,
+										D183C64A03DB752A00A1D905,
+										D183C64B03DB752A00A1D905,
+										D183C64C03DB752A00A1D905,
+										D183C64D03DB752A00A1D905,
+										D183C64E03DB752A00A1D905,
+										D183C64F03DB752A00A1D905,
+										D183C65003DB752A00A1D905,
+										D183C65103DB752A00A1D905,
+										D183C65203DB752A00A1D905,
+										D183C65303DB752A00A1D905,
+										D183C65403DB752A00A1D905,
+										D183C65503DB752A00A1D905,
+										D183C65603DB752A00A1D905,
+										D183C65703DB752A00A1D905,
+										D183C65803DB752A00A1D905,
+										D183C65903DB752A00A1D905,
+										D183C65A03DB752A00A1D905,
+										D183C65B03DB752A00A1D905,
+										D183C65C03DB752A00A1D905,
+										D183C65D03DB752A00A1D905,
+										D183C65E03DB752A00A1D905,
+										D183C65F03DB752A00A1D905,
+										D183C66003DB752A00A1D905,
+										D183C66103DB752A00A1D905,
+										D183C66203DB752A00A1D905,
+										D183C66303DB752A00A1D905,
+										D183C66403DB752A00A1D905,
+										D183C66503DB752A00A1D905,
+										D183C66603DB752A00A1D905,
+										D183C66703DB752A00A1D905,
+										D183C66803DB752A00A1D905,
+										D183C66903DB752A00A1D905,
+										D183C66A03DB752A00A1D905,
+										D183C66B03DB752A00A1D905,
+										D183C66C03DB752A00A1D905,
+										D183C66D03DB752A00A1D905,
+										D183C66E03DB752A00A1D905,
+										D183C66F03DB752A00A1D905,
+										D183C67003DB752A00A1D905,
+										D183C67103DB752A00A1D905,
+										D183C67203DB752A00A1D905,
+										D183C67303DB752A00A1D905,
+										D183C67403DB752A00A1D905,
+										D183C67503DB752A00A1D905,
+										D183C67603DB752A00A1D905,
+										D183C67703DB752A00A1D905,
+										D183C67803DB752A00A1D905,
+										D183C67903DB752A00A1D905,
+										D183C67A03DB752A00A1D905,
+										D183C67B03DB752A00A1D905,
+										D183C67C03DB752A00A1D905,
+										D183C67D03DB752A00A1D905,
+										D183C67E03DB752A00A1D905,
+										D183C67F03DB752A00A1D905,
+										D183C68003DB752A00A1D905,
+										D183C68103DB752A00A1D905,
+										D1A3758103DB763700A1D905,
+										D1EA4EE903DB787600A1D905,
+										D1EA4EEA03DB787600A1D905,
+										D1EA4EEB03DB787600A1D905,
+										D1EA4EEC03DB787600A1D905,
+										D13B1F8203DB7BFE00A1D905,
+										D13B1F8303DB7BFE00A1D905,
+										D13B1F8403DB7BFE00A1D905,
+										D13B1F8503DB7BFE00A1D905,
+										D13B1F8603DB7BFE00A1D905,
+										D13B1F8703DB7BFE00A1D905,
+										D13B1F8803DB7BFE00A1D905,
+										D13B1F8903DB7BFE00A1D905,
+										D13B1F8A03DB7BFE00A1D905,
+										D13B1F8B03DB7BFE00A1D905,
+										D13B1F8C03DB7BFE00A1D905,
+										D13B1F8D03DB7BFE00A1D905,
+										D13B1F8F03DB7BFE00A1D905,
+										D13B1F9003DB7BFE00A1D905,
+										D13B1F9103DB7BFE00A1D905,
+										D13B1F9203DB7BFE00A1D905,
+										D13B1F9303DB7BFE00A1D905,
+										D1D4D08703DB82AD00A1D905,
+										D144A8AE03DB889900A1D905,
+										D144A8AF03DB889900A1D905,
+										D144A8B003DB889900A1D905,
+										D144A8B103DB889900A1D905,
+										D144A8B203DB889900A1D905,
+										D144A8B303DB889900A1D905,
+										D144A8B403DB889900A1D905,
+										D1116CFF03DB890800A1D905,
+										D1116D0003DB890800A1D905,
+										D1116D0103DB890800A1D905,
+										D193E27F03DC82FB00A1D905,
+										D193E28003DC82FB00A1D905,
+										D193E28103DC82FB00A1D905,
+										D193E28203DC82FB00A1D905,
+										D193E28303DC82FB00A1D905,
+										D193E28403DC82FB00A1D905,
+										D193E28503DC82FB00A1D905,
+										D193E28603DC82FB00A1D905,
+										D193E28703DC82FB00A1D905,
+										D193E28803DC82FB00A1D905,
+										D193E28903DC82FB00A1D905,
+										D193E28A03DC82FB00A1D905,
+										D193E28B03DC82FB00A1D905,
+										D193E28C03DC82FB00A1D905,
+										D193E28D03DC82FB00A1D905,
+										D193E28E03DC82FB00A1D905,
+										D193E28F03DC82FB00A1D905,
+										D193E29003DC82FB00A1D905,
+										D193E29103DC82FB00A1D905,
+										D193E29203DC82FB00A1D905,
+										D193E29303DC82FB00A1D905,
+										D193E29403DC82FB00A1D905,
+										D193E29503DC82FB00A1D905,
+										D193E29603DC82FB00A1D905,
+										D193E29703DC82FB00A1D905,
+										D193E29803DC82FB00A1D905,
+										D193E29903DC82FB00A1D905,
+										D193E29A03DC82FB00A1D905,
+										D193E29B03DC82FB00A1D905,
+										D193E29C03DC82FB00A1D905,
+										D193E29D03DC82FB00A1D905,
+										D193E29E03DC82FB00A1D905,
+										D193E29F03DC82FB00A1D905,
+										D193E2A003DC82FB00A1D905,
+										D193E2A103DC82FB00A1D905,
+										D193E2A203DC82FB00A1D905,
+										D193E2A303DC82FB00A1D905,
+										D193E2A403DC82FB00A1D905,
+										D193E2A503DC82FB00A1D905,
+										D193E2A603DC82FB00A1D905,
+										D193E2A703DC82FB00A1D905,
+										D193E2A803DC82FB00A1D905,
+										D193E2A903DC82FB00A1D905,
+										D193E2AA03DC82FB00A1D905,
+										D193E2AB03DC82FB00A1D905,
+										D193E2AC03DC82FB00A1D905,
+										D193E2AD03DC82FB00A1D905,
+										D193E35503DCB66900A1D905,
+										D193E35603DCB66900A1D905,
+										D18108E203EDF14C00A1D905,
+										D18108E303EDF14C00A1D905,
+										D18108E403EDF14C00A1D905,
+										D18108E503EDF14C00A1D905,
+										D18108E603EDF14C00A1D905,
+										D18108E703EDF14C00A1D905,
+										D18108E803EDF14C00A1D905,
+										D18108E903EDF14C00A1D905,
+										D18108EA03EDF14C00A1D905,
+										D18108EB03EDF14C00A1D905,
+										D18108EC03EDF14C00A1D905,
+										D187275B03F7060E00A1D905,
+										D187275C03F7060E00A1D905,
+										D187275D03F7060E00A1D905,
+										D148E8D403FEFC3F00A1D905,
+										D148E8D503FEFC3F00A1D905,
+										D148E8D603FEFC3F00A1D905,
+										D148E8D703FEFC3F00A1D905,
+										D148E8DB03FEFC6D00A1D905,
+										D184C6C00419790900A1D905,
+										D184C6C10419790900A1D905,
+										D184EBBF04197EE700A1D905,
+										D184EBC004197EE700A1D905,
+										D184EBC104197EE700A1D905,
+										D1053243041AF46300A1D905,
+										D1053244041AF46300A1D905,
+										D1053245041AF46300A1D905,
+										D1053246041AF46300A1D905,
+										D1053247041AF46300A1D905,
+										D1053248041AF46300A1D905,
+										D1053249041AF46300A1D905,
+										D105324A041AF46300A1D905,
+										D105324B041AF46300A1D905,
+										D105324C041AF46300A1D905,
+										D105324D041AF46300A1D905,
+										D105324E041AF46300A1D905,
+										D105324F041AF46300A1D905,
+										D1053250041AF46300A1D905,
+										D1053251041AF46300A1D905,
+										D1053252041AF46300A1D905,
+										D1053253041AF46300A1D905,
+										D1053254041AF46300A1D905,
+										D1053255041AF46300A1D905,
+										D1053256041AF46300A1D905,
+										D1053257041AF46300A1D905,
+										D1053258041AF46300A1D905,
+										D1053259041AF46300A1D905,
+										D189B819041BEF6100A1D905,
+										D189B81A041BEF6100A1D905,
+										D189B81B041BEF6100A1D905,
+										D189B81C041BEF6100A1D905,
+										D189B81D041BEF6100A1D905,
+										D189B81E041BEF6100A1D905,
+										D189B81F041BEF6100A1D905,
+										D189B820041BEF6100A1D905,
+										D189B821041BEF6100A1D905,
+										D189B822041BEF6100A1D905,
+										D189B823041BEF6100A1D905,
+										D189B824041BEF6100A1D905,
+										D189B825041BEF6100A1D905,
+										D189B826041BEF6100A1D905,
+										D189B827041BEF6100A1D905,
+										D189B828041BEF6100A1D905,
+										D189B829041BEF6100A1D905,
+										D189B82A041BEF6100A1D905,
+										D189B82B041BEF6100A1D905,
+										D189B82C041BEF6100A1D905,
+										D189B82D041BEF6100A1D905,
+										D189B82E041BEF6100A1D905,
+										D189B82F041BEF6100A1D905,
+										D189B830041BEF6100A1D905,
+										D189B831041BEF6100A1D905,
+										D189B832041BEF6100A1D905,
+										D189B833041BEF6100A1D905,
+										D189B834041BEF6100A1D905,
+										D189B835041BEF6100A1D905,
+										D189B836041BEF6100A1D905,
+										D189B837041BEF6100A1D905,
+										D189B838041BEF6100A1D905,
+										D189B839041BEF6100A1D905,
+										D189B83A041BEF6100A1D905,
+										D189B83B041BEF6100A1D905,
+										D189B83C041BEF6100A1D905,
+										D189B83D041BEF6100A1D905,
+										D189B83E041BEF6100A1D905,
+										D189B83F041BEF6100A1D905,
+										D189B840041BEF6100A1D905,
+										D189B841041BEF6100A1D905,
+										D189B842041BEF6100A1D905,
+										D189B843041BEF6100A1D905,
+										D189B844041BEF6100A1D905,
+										D189B845041BEF6100A1D905,
+										D189B846041BEF6100A1D905,
+										D189B847041BEF6100A1D905,
+										D189B848041BEF6100A1D905,
+										D189B849041BEF6100A1D905,
+										D189B84A041BEF6100A1D905,
+										D189B84B041BEF6100A1D905,
+										D189B84C041BEF6100A1D905,
+										D189B84D041BEF6100A1D905,
+										D189B84E041BEF6100A1D905,
+										D189B84F041BEF6100A1D905,
+										D189B850041BEF6100A1D905,
+										D189B851041BEF6100A1D905,
+										D189B852041BEF6100A1D905,
+										D189B853041BEF6100A1D905,
+										D189B854041BEF6100A1D905,
+										D189B855041BEF6100A1D905,
+										D189B856041BEF6100A1D905,
+										D189B857041BEF6100A1D905,
+										D189B858041BEF6100A1D905,
+										D189B859041BEF6100A1D905,
+										D189B85A041BEF6100A1D905,
+										D189B85B041BEF6100A1D905,
+										D1809438041BF3C300A1D905,
+										D1809439041BF3C300A1D905,
+										D180943A041BF3C300A1D905,
+										D180943B041BF3C300A1D905,
+										D180943C041BF3C300A1D905,
+										D180943D041BF3C300A1D905,
+										D180943E041BF3C300A1D905,
+										D180943F041BF3C300A1D905,
+										D1809440041BF3C300A1D905,
+										D1809441041BF3C300A1D905,
+										D1809442041BF3C300A1D905,
+										D1809443041BF3C300A1D905,
+										D15856E2041C02BC00A1D905,
+										D12D96DD041C138B00A1D905,
+										D12D96DE041C138B00A1D905,
+										D12D96DF041C138B00A1D905,
+										D12D96E0041C138B00A1D905,
+										D12D96E1041C138B00A1D905,
+										D12D96E2041C138B00A1D905,
+										D12D96E3041C138B00A1D905,
+										D12D96E4041C138B00A1D905,
+										D12D96E5041C138B00A1D905,
+										D12D974B041C155900A1D905,
+										D12D974C041C155900A1D905,
+										D12D974D041C155900A1D905,
+										D12D974E041C155900A1D905,
+										D12D974F041C155900A1D905,
+										D12D9750041C155900A1D905,
+										D1BE7C66041D844000A1D905,
+										D1BE7C67041D844000A1D905,
+										D1BE7C68041D844000A1D905,
+										D1A401F604217F5500A1D905,
+										D18ED7CD042C16A100A1D905,
+										D18719540434C96B00A1D905,
+										D18719550434C96B00A1D905,
+										D18719560434C96B00A1D905,
+										D18719570434C96B00A1D905,
+										D18B581804477D7500A1D905,
+										D18B581904477D7500A1D905,
+										D1BFEF8E0448CE2600A1D905,
+										D1BFEF8F0448CE2600A1D905,
+									);
+								};
+								NavCount = 1;
+								NavGeometry0 = {
+									Frame = "{{0, 0}, {814, 459}}";
+									NavBarVisible = YES;
+								};
+								NavSplitVertical = NO;
+							};
+							SplitCount = 1;
+							Tab1 = {
+								Debugger = {
+									Split0 = {
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									TabCount = 2;
+								};
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								LauncherConfigVersion = 3;
+								Runner = {
+								};
+							};
+							TabCount = 5;
+						};
+						SplitCount = 1;
+						Tab1 = {
+							OptionsSetName = "Hierarchy, all classes";
+						};
+						TabCount = 5;
+					};
+				},
+			);
+			PBXWorkspaceGeometries = (
+				{
+					ContentSize = "{1024, 641}";
+					LeftSlideOut = {
+						ActiveTab = 0;
+						ActiveTabName = PBXGroupTreeModule;
+						Collapsed = NO;
+						Frame = "{{0, 23}, {1024, 618}}";
+						Split0 = {
+							ActiveTab = 2;
+							ActiveTabName = PBXBuildResultsModule;
+							Collapsed = NO;
+							Frame = "{{210, 0}, {814, 618}}";
+							Split0 = {
+								Frame = "{{0, 159}, {814, 459}}";
+							};
+							SplitCount = 1;
+							Tab0 = {
+								Frame = "{{0, 0}, {572, 214}}";
+							};
+							Tab1 = {
+								Debugger = {
+									ActiveTab = 0;
+									ActiveTabName = PBXDebugCLIModule;
+									Collapsed = NO;
+									Frame = "{{0, 0}, {814, 308}}";
+									Split0 = {
+										Frame = "{{0, 150}, {814, 158}}";
+										Split0 = {
+											Frame = "{{0, 0}, {480, 158}}";
+										};
+										Split1 = {
+											DebugVariablesTableConfiguration = (
+												Name,
+												140,
+												Value,
+												84,
+												Summary,
+												75.123,
+											);
+											Frame = "{{489, 0}, {325, 158}}";
+										};
+										SplitCount = 2;
+									};
+									SplitCount = 1;
+									Tab0 = {
+										Frame = "{{0, 0}, {776, 50}}";
+									};
+									Tab1 = {
+										Frame = "{{0, 0}, {814, 126}}";
+									};
+									TabCount = 2;
+									TabsVisible = YES;
+								};
+								Frame = "{{0, 0}, {814, 308}}";
+								LauncherConfigVersion = 7;
+							};
+							Tab2 = {
+								Frame = "{{0, 0}, {814, 127}}";
+								LauncherConfigVersion = 3;
+								Runner = {
+									Frame = "{{0, 0}, {814, 127}}";
+								};
+							};
+							Tab3 = {
+								BuildMessageFrame = "{{0, 0}, {816, 102}}";
+								BuildTranscriptFrame = "{{0, 111}, {816, 2}}";
+								BuildTranscriptFrameExpanded = YES;
+								Frame = "{{0, 0}, {814, 135}}";
+							};
+							Tab4 = {
+								Frame = "{{0, 0}, {809, 295}}";
+							};
+							TabCount = 5;
+							TabsVisible = YES;
+						};
+						SplitCount = 1;
+						Tab0 = {
+							Frame = "{{0, 0}, {186, 618}}";
+							GroupTreeTableConfiguration = (
+								TargetStatusColumn,
+								18,
+								MainColumn,
+								153,
+							);
+						};
+						Tab1 = {
+							ClassesFrame = "{{0, 0}, {247, 372}}";
+							ClassesTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXClassColumnIdentifier,
+								204,
+							);
+							Frame = "{{0, 0}, {245, 618}}";
+							MembersFrame = "{{0, 381}, {247, 237}}";
+							MembersTreeTableConfiguration = (
+								PBXBookColumnIdentifier,
+								20,
+								PBXMethodColumnIdentifier,
+								203,
+							);
+						};
+						Tab2 = {
+							Frame = "{{0, 0}, {226, 618}}";
+						};
+						Tab3 = {
+							Frame = "{{0, 0}, {191, 618}}";
+							TargetTableConfiguration = (
+								ActiveObject,
+								16,
+								ObjectNames,
+								202.296,
+							);
+						};
+						Tab4 = {
+							BreakpointsTreeTableConfiguration = (
+								breakpointColumn,
+								138,
+								enabledColumn,
+								31,
+							);
+							Frame = "{{0, 0}, {191, 618}}";
+						};
+						TabCount = 5;
+						TabsVisible = YES;
+					};
+					NavBarShownByDefault = YES;
+					StatusViewVisible = YES;
+					Template = F5F68CF101725D4C0D7A8F4C;
+					ToolbarVisible = YES;
+					WindowLocation = "{0, 43}";
+				},
+			);
+			PBXWorkspaceStateSaveDate = 292034965;
+		};
+		perUserProjectItems = {
+			D1309D7C0E7729A000BACC36 /* PBXTextBookmark */ = D1309D7C0E7729A000BACC36 /* PBXTextBookmark */;
+			D131BC62105C8B56009DACFE /* PBXTextBookmark */ = D131BC62105C8B56009DACFE /* PBXTextBookmark */;
+			D131BC87105C8D44009DACFE /* PBXTextBookmark */ = D131BC87105C8D44009DACFE /* PBXTextBookmark */;
+			D131BC91105C8EC4009DACFE /* PBXTextBookmark */ = D131BC91105C8EC4009DACFE /* PBXTextBookmark */;
+			D14512E711681B5600984731 /* PBXTextBookmark */ = D14512E711681B5600984731 /* PBXTextBookmark */;
+			D14512E811681B5600984731 /* PBXTextBookmark */ = D14512E811681B5600984731 /* PBXTextBookmark */;
+			D14512E911681B5600984731 /* PBXTextBookmark */ = D14512E911681B5600984731 /* PBXTextBookmark */;
+			D169A708105D4A8500EC80F1 /* PBXTextBookmark */ = D169A708105D4A8500EC80F1 /* PBXTextBookmark */;
+			D1EA57B00E743DFE0058B93F /* PBXBookmark */ = D1EA57B00E743DFE0058B93F /* PBXBookmark */;
+		};
+		sourceControlManager = D1BDF5B8083FD966007482E2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 970}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 110}";
+		};
+	};
+	D1309D7C0E7729A000BACC36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D13A4E7C0E6C759600C7E31D /* Mesh3DS.h */;
+		name = "Mesh3DS.h: 1";
+		rLen = 30;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	D131BC62105C8B56009DACFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 6";
+		rLen = 0;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	D131BC87105C8D44009DACFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 110;
+		vrLoc = 0;
+	};
+	D131BC91105C8EC4009DACFE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47DA24F02CBBC2D01A8070A /* Controller.h */;
+		name = "Controller.h: 21";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	D132FF470B16BC9900C30E1A /* Display3DS */ = {
+		activeExec = 0;
+		executables = (
+			D132FF5F0B16BC9900C30E1A /* Display3DS */,
+		);
+	};
+	D132FF5D0B16BC9900C30E1A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {954, 632}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {954, 632}}";
+			sepNavWindowFrame = "{{15, 50}, {750, 947}}";
+		};
+	};
+	D132FF5F0B16BC9900C30E1A /* Display3DS */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Display3DS;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$ss = 1;
+		};
+	};
+	D13A4E7C0E6C759600C7E31D /* Mesh3DS.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Mesh3DS.h;
+		path = /Library/Frameworks/Mesh3DS.framework/Headers/Mesh3DS.h;
+		sourceTree = "<absolute>";
+	};
+	D14512E711681B5600984731 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47DA25202CBBC2D01A8070A /* View.m */;
+		name = "View.m: 137";
+		rLen = 0;
+		rLoc = 3282;
+		rType = 0;
+		vrLen = 1673;
+		vrLoc = 0;
+	};
+	D14512E811681B5600984731 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47DA25002CBBC2D01A8070A /* Controller.m */;
+		name = "Controller.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2338;
+		vrLoc = 0;
+	};
+	D14512E911681B5600984731 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47DA25002CBBC2D01A8070A /* Controller.m */;
+		name = "Controller.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2338;
+		vrLoc = 0;
+	};
+	D169A708105D4A8500EC80F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47DA25102CBBC2D01A8070A /* View.h */;
+		name = "View.h: 10";
+		rLen = 0;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	D1BDF5B8083FD966007482E2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	D1BDF5B9083FD966007482E2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D1EA57B00E743DFE0058B93F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D144A8A703DB881900A1D905 /* P-Squared.icns */;
+	};
+	F47DA24F02CBBC2D01A8070A /* Controller.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 970}}";
+			sepNavSelRange = "{390, 0}";
+			sepNavVisRange = "{0, 395}";
+			sepNavVisRect = "{{0, 0}, {1431, 581}}";
+		};
+	};
+	F47DA25002CBBC2D01A8070A /* Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 1859}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2338}";
+			sepNavVisRect = "{{0, 0}, {1031, 565}}";
+			sepNavWindowFrame = "{{15, 62}, {1433, 1111}}";
+		};
+	};
+	F47DA25102CBBC2D01A8070A /* View.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 970}}";
+			sepNavSelRange = "{223, 0}";
+			sepNavVisRange = "{0, 531}";
+			sepNavVisRect = "{{0, 0}, {1431, 581}}";
+		};
+	};
+	F47DA25202CBBC2D01A8070A /* View.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1574, 2067}}";
+			sepNavSelRange = "{3282, 0}";
+			sepNavVisRange = "{0, 1673}";
+			sepNavVisRect = "{{0, 0}, {1031, 632}}";
+			sepNavWindowFrame = "{{15, 165}, {1038, 858}}";
+		};
+	};
+}
