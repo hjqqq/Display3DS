@@ -51,6 +51,7 @@
 			}
 		}
 	}
+	
 	else self = nil;
 	
 	return self;
@@ -139,7 +140,7 @@
     glClearColor    (0.5, 0.5, 0.5, 1.0);
 }
 
--(void) otherMouseDown:(NSEvent *)pEvent {								// Use the 3rd mouse button for arcball movement, similar to Blender
+-(void) otherMouseDown:(NSEvent *)pEvent {								// Use the 3rd mouse button for arcball movement, ala Blender
 	
 	NSPoint pointInWindow		= [pEvent locationInWindow];
 	NSPoint pointInView			= [self convertPoint:pointInWindow fromView:nil];
@@ -192,11 +193,14 @@
 
 -(void) scrollWheel:(NSEvent*) pEvent {
 	
-	float scaleFactor = ([pEvent deltaY] > 0.0) ? 1.1 : 0.9;
-	
-	modelViewMatrix   = glm::scale (modelViewMatrix, glm::vec3 (scaleFactor));
-	
-	[self setNeedsDisplay:YES];
+	if	([pEvent deltaY] != 0.0) {
+		
+		float scaleFactor = ([pEvent deltaY] > 0.0) ? 1.1 : 0.9;
+		
+		modelViewMatrix   = glm::scale (modelViewMatrix, glm::vec3 (scaleFactor));
+		
+		[self setNeedsDisplay:YES];
+	}
 }
 
 - (void) drawRect :(NSRect)rect {
